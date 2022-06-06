@@ -1,0 +1,369 @@
+
+html{
+	height: 1600px;
+}
+body{
+	width: 100%;
+	height: 1000px;
+	background: url(../img/2.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	position: relative;
+}
+
+#top_title{
+				width: 100%;
+				height: 110px;
+				
+				line-height: 50px;
+				
+				
+				color: white;
+			}
+			#top_select {
+				position: relative;
+				width: 100%;
+				height: 100px;
+				align-content: center;
+				display: inline-block;
+				/*background-image: url(img/c-ssl.duitang.jpeg)*/
+			}
+			#top_select ul{
+				position: absolute;
+				left: 30%;
+				display: inline-block;
+			}
+			#top_select li{
+				display: inline-block;
+				font-size: 30px;
+				margin-left: 20px;
+				cursor: pointer;
+				line-height: 80px;
+			}
+			#top_select_show{
+				width: 100%;
+				height: 800px;
+				/*background: #5F9EA0;*/
+				position: relative;
+				top: 100px;
+			}
+			.friend{
+				width: auto;
+				/*height: 100px;*/
+				height: auto;
+				background: aliceblue;
+				position: absolute;
+				top: 300px;
+				left: 90%;
+				
+				/*background-image: url(img/u=3168329137,3263381309&fm=193&f=GIF.jpg);*/
+				/*background: black;*/
+			}
+			span a{
+				text-decoration: none;
+				color:white;
+				position: absolute;
+				top: 40px;
+				left: 50px;
+				font-size: 30px;
+			}
+		/*展示部分*/
+		    .div_one{
+		    	width: 500px;
+		    	height: 800px;
+		    	/*background: #5F9EA0;*/
+		    	position: absolute;
+		    	left: 20%;
+		    	border-radius: 10px;
+		    	display: block;
+		    }
+		    .div_one_img{
+		    	width: 500px;
+		    	height: 800px;
+		    	
+		    	position: absolute;
+		    	top: 20px;
+		    	left: 40px;
+		    	border-radius: 10px;
+		    	display: block;
+		    }
+		    .inphoto{
+		    	width: 600px;
+		    	height: 850px;
+		    	background: black;
+		    	
+		    }
+		    .div_one_img img{
+		    	width: 100%;
+		    	height: 100%;
+		    	border-radius: 10px;
+		    	
+		    }
+		    .div_one_in{
+		    	width: 465px;
+		    	height: 105px;
+		    	background: white;
+		    	position: absolute;
+		    	top: 118px;
+		    	left: 23px;
+		    }
+            .div_two{
+		    	width: 100%;
+		    	height: 1000px;
+		    	/*background: #5F9EA0;*/
+		    	display: none;
+		    }
+		    .div_three{
+		    	width: 100%;
+		    	height: 600px;
+		    	/*background: #5F9EA0;*/
+		    	display: none;
+		    }
+		    .div_fore{
+		    	width: 100%;
+		    	height: 850px;
+		    	/*background: #5F9EA0;*/
+		    	display: none;
+		    }
+		/*简介基本信息*/
+		    .div_one_in span{
+		    	display: inline-block;
+		    	/*color: blue;*/
+		    	font-size: 13px;
+		    }
+		    .sp_name{
+		    	position: absolute;
+		    	top: 0px;
+		    	left: 5px;
+		    }
+		    .sp_nation{
+		    	position: absolute;
+		    	top: 20px;
+		    	left: 5px;
+		    }
+		    .sp_ph_num{
+		    	position: absolute;
+		    	top: 40px;
+		    	left: 5px;
+		    }
+		    .sp_email{
+		    	position: absolute;
+		    	top: 60px;
+		    	left: 5px;
+		    }
+		    .sp_address{
+		    	position: absolute;
+		    	top: 80px;
+		    	left: 5px;
+		    }
+		    /*我的相册*/
+		   .div_fore center{
+		   	margin-top: 30px;
+		   }
+		   .div_fore li img{
+		   	width: 100%;
+		   	height: 100%;
+		   }
+		   .up1{
+				
+				margin-top: 10px;
+				transition-duration: 300ms;
+			}
+			.up1:hover{
+				margin-top: 0px;
+				transition-duration: 300ms;
+			}
+			 
+		   /*.div_fore{
+		   	width: 350px;
+		   	height: auto;
+		   	background: blue;
+		   	border-radius: 10px;
+		   	position: relative;
+		   	left: 50%;
+		   	
+		   }
+		   .div_fore li{
+		   	width: 250px;
+		   	height: 250px;
+		   	margin-top: 20px;
+		   	margin-left: 50px;
+		   	background: black;
+		   	cursor: pointer;
+		   
+		   }*/
+		   
+		  
+		 
+		   /*我的音乐*/
+		 *{margin:0; padding:0;}
+.bd{
+	border:1px solid red;
+	}
+.fl{
+	float: left;
+	}
+.fr{
+	float:right;
+	}
+.mr10{
+	margin-right:10px;
+	}
+ul{
+	list-style: none;
+	}
+.clearfix:after{
+	content: ""; 
+	height:0; 
+	line-height: 0; 
+	visibility: hidden;
+	display: block; 
+	clear:both;
+	}
+/*播放列表*/
+.active{
+	width: 400px;
+	height: auto;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	
+}
+ .active_one{
+ 	width: 400px;
+	height: auto;
+	position: absolute;
+	top: 100px;
+	left: 0px;
+}
+.active_two{
+	width: 400px;
+	height: auto;
+	position: absolute;
+	top: 200px;
+	left: 0px;
+}
+/**/
+#player{
+	width:600px; 
+	height:600px; 
+	background:#130519de;
+	margin:0 auto;
+	}
+#playerControl{
+	position:relative;
+	height:200px;
+	}
+#playerControl .playerImg{
+	padding:25px;
+	box-sizing: border-box;
+	}
+ 
+/*播放控制界面*/
+#pcontrol{
+	position: absolute;
+	left:300px; top:85px;
+	}
+#pcontrol button{
+	float:left;
+	margin:0 10px;
+	border:0;outline: none; 
+	width:28px; height:28px;
+	background:url("../../images/demo3/player.png") no-repeat;
+	}
+ 
+/*暂停*/
+
+#pcontrol .play1{
+	background-position: -8px -8px;
+	}
+#pcontrol .play1:hover{
+	background-position: -49px -8px;
+	}
+ 
+/*播放*/
+#pcontrol .play2{
+	background-position: -8px -49px;
+	}
+#pcontrol .play2:hover{
+	background-position: -49px -49px;
+	}
+ 
+/*上一曲*/
+#pcontrol .prev{
+	background-position: 0 -112px;
+	}
+#pcontrol .prev:hover{
+	background-position: -30px -112px;
+	}
+ 
+/*下一曲*/
+#pcontrol .next{
+	background-position: 0 -141px;
+	}
+#pcontrol .next:hover{
+	background-position: -30px -141px;
+	}
+/*停止播放*/
+#pcontrol .stop{
+	background-position: 0 -84px;
+	}
+#pcontrol .stop:hover{
+	background-position: -30px -84px;
+	}
+ 
+/*播放列表*/
+#playerList{
+	padding:20px 0px;
+	}
+#playerList ul li{
+	padding:10px 20px; 
+	}
+#playerList ul li.active,#playerList ul li:hover{
+	background:rgba(0, 0, 0, .4);
+	color:#665975;
+	cursor: pointer;
+	}
+ 
+/*播放进度*/
+#progrees{
+	width:550px; 
+	height:5px; 
+	background:#ccc; 
+	margin:0 auto;
+	}
+#curProgrees{
+	width:0px; 
+	height:100%; 
+	background:darkolivegreen;
+	}
+ 
+/*播放时间*/
+#playTime{
+	padding:10px 25px 0px; 
+	text-align: right;
+	}
+/*我的留言*/
+#ul{
+	width: auto;
+	height: auto;
+	/*padding: 50px;*/
+	border: 1px solid red;
+}
+.inUl{
+	width: 400px;
+	height: 600px;
+	position: absolute;
+	left: 600px;
+	
+}
+ .inInp{
+		  	width: auto;
+		  	height: auto;
+		  	background-color:rgba(0,0,0,0.5) ;
+		  	position: absolute;
+		  	left: 200px;
+		  	border-radius: 8px;
+		  	
+		  }

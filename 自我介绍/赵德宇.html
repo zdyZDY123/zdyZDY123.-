@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+<h1 style="display: none;">个人简历</h1>
+<h2 style="display: none;">个人简历</h2>
+<h3 style="display: none;">个人简历</h3>
+<h4 style="display: none;">个人简历</h4>
+<meta charset="utf-8" />
+<meta name="description" content="个人简历，自我介绍，简历"/>
+<meta name="keywords" content="个人简历，自我介绍"/>
+
+		<title>自我介绍</title>
+		<link rel="stylesheet" href="css/zhao.css" />
+	</head>
+	<body>
+		<div id="top_title">
+			<p>
+				<h1 align="center">赵德宇的个人简历</h1>
+			</p>
+			<p>
+				<h3 align="center">专职专业&nbsp;树木树人</h3>
+			</p>
+			
+		</div>
+		<meta name="description" content="个人简历，自我介绍，简历，赵德宇，赵德宇个人简历，赵德宇自我介绍"/>
+		<meta name="keywords" content="个人简历，自我介绍，赵德宇个人简历，赵德宇自我介绍"/>
+		<div id="top_select">
+				<ul>
+					
+					<li>简历</li>
+					<li>我的音乐</li>
+					<li>留言板&nbsp;<span id="counter" style="color: black">0</span></li>
+					<li>相册</li>
+					<li onclick="window.location='homepage.html'">主页</li>
+				</ul>
+			
+			<div id="top_select_show">
+				
+				<div class="div_one">
+					<div class="inphoto">
+					<div class="div_one_img">
+					<img src="img/Screenshot_20220407_215233_edit_26062568352860.jpg">
+					<div class="div_one_in">
+							<span class="sp_name">姓&nbsp;&nbsp;&nbsp;名：赵德宇</span>
+							<span class="sp_nation">名&nbsp;&nbsp;&nbsp;族：汉</span>
+							<span class="sp_ph_num">电&nbsp;&nbsp;&nbsp;话：18387490160</span>
+							<span class="sp_email">邮&nbsp;&nbsp;&nbsp;箱：1945317151@qq.com</span>
+							<span class="sp_address">住&nbsp;&nbsp;&nbsp;址：云南宣威</span>
+					</div>
+					</div>
+				    </div>
+				</div>
+				<div class="div_two" >
+					<!--播放器-->
+<div id="player">
+    <!--播放控件-->
+    <div id="playerControl">
+        <div class="playerImg">
+            <img src="../images/demo3/1.jpg" alt="" width="150" height="150">
+            <audio id="audio">
+                <source src="../video/1.mp3">
+            </audio>
+        </div>
+        <div id="pcontrol" class="clearfix">
+            <button class="prev" title="上一曲"><<</button>
+            <button id="play" class="play1" title="播放">||</button>
+            <button class="next" title="下一曲">>></button>
+            <button class="stop" title="停止"></button>
+        </div>
+    </div>
+    <!--播放进度-->
+    <div id="progrees">
+        <div id="curProgrees"></div>
+    </div>
+    <!--播放时间-->
+    <div id="playTime">
+        <span id="presentTime">00 : 00</span>
+        <span>/</span>
+        <span id="totalTime">00 : 00</span>
+    </div>
+    <!--音频列表-->
+    <div id="playerList">
+        <ul>
+            <li class="active">
+                <span class="mr10">1</span>
+                <span>Mascara</span>
+                <span>-</span>
+                <span>G.E.M. 邓紫棋</span>
+            </li>
+            <li class="active_one">
+                <span class="mr10">2</span>
+                <span>西安人的歌</span>
+                <span>-</span>
+                <span>范炜与程渤智</span>
+            </li>
+            <li class="active_two">
+                <span class="mr10">3</span>
+                <span>往后余生</span>
+                <span>-</span>
+                <span>李贰叁</span>
+            </li>
+        </ul>
+    </div>
+</div>
+				</div>
+				<!--留言板-->
+				<div class="div_three">
+				    <div class="inInp">
+					     <input type="text" id="txt" placeholder="请留言" style="position: absolute;top: 200px;left: 0px;height: 50px;">
+                         <input type="button" value="留言" style="position: absolute;top: 280px;font-size: 40px;width: 165px;border-radius: 10px;">
+				    	 <input type="text" placeholder="请输入姓名" style="position: absolute;top: 100px;"> 
+				    	 <input type="text" placeholder="请输入Email" style="position: absolute;top: 150px;">
+				    </div>
+                    <div class="inUl"><ul id="ul"></ul></div>
+				</div>
+				<!--我的相册-->
+				<div class="div_fore">
+					<center>
+						<div style="<!--background: white;-->width: 80%;height: 400px;">
+					        <li class="up1" style="width: 45%;height:400px;background:black;margin-top: 0px;transition-duration: 300ms;">
+					        	<img src="img/1.jpg">
+					        </li>
+					        <li class="up2" style="width: 30%;height:400px;background:black;">
+					        	<img src="img/10.jpg">
+					        </li>
+					    </div>
+					</center>
+					<center>
+						<div style="<!--background: brown;-->width: 80%;height: 400px;">
+						   <li class="up3" style="width: 30%;height:400px;background:green;">
+						       <img src="img/11.jpg">
+						   </li>
+					       <li class="up4" style="width: 45%;height:400px;background:yellow;">
+					       	<img src="img/8.jpg">
+					       </li>
+					</div>
+					</center>
+					<center>
+						<div style="<!--background: darkgoldenrod;-->width: 80%;height: 400px;">
+					       <li class="up5" style="width: 45%;height:400px;background:red;">
+					       	<img src="img/3.jpg">
+					       </li>
+					       <li class="up6" style="width: 30%;height:400px;background:blue;">
+					       	<img src="img/6059cdd8e7bce77597da1b021620138059.png">
+					       </li>
+					    </div>
+					</center>
+					
+				</div>
+				
+			</div>
+		</div>
+		<div class="friend">
+			<span>
+				<a href="#">友情链接</a>
+			</span>
+		</div>
+	</body>
+</html>
+<script src="js/zhao.js"></script>
